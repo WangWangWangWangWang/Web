@@ -1,0 +1,72 @@
+
+header a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header .fixed-width{
+    display: table-cell;
+    vertical-align: middle; 
+}
+
+#bn{
+    width: 800px;
+    height: 120px;
+    text-align: center;
+    margin: auto;
+}
+
+
+.col-2 ul{
+    width: 100%;
+    text-align: left;
+    margin: auto;
+}
+.col-2 li{
+    padding-top:5px;  
+}
+.col-2 a{
+    text-decoration: none;
+    color: #666;
+}
+
+#space a{
+    font-size: 10px;
+    padding-left: 10px;
+    margin: auto;
+}
+
+.col-2 a:hover{
+    text-decoration: underline;
+}
+#space a:hover{
+    text-decoration: underline;
+}
+
+#productlist{
+    text-align: center;
+
+}
+
+#productlist img{
+    height: 225px;
+    width: 225px;
+}
+
+
+#pimg{
+    height: 400px;
+    width: 400px;
+}
+
+
+form{
+    height: 600px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+
+

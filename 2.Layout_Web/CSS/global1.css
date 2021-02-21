@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow:500');
+*{
+    font-family:"Archivo Narrow","微軟正黑體",sans-serif;
+    box-sizing : border-box;
+}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    /* max-width: 100%; /* 會隨著框架縮放 不會超過*/
+    width: 100%;
+
+}
+
+.bx-wrapper{
+    border: 0;
+}
+
+li,ul,li{
+    list-style: none;
+}
+
+.full-width{
+    width: 100%;
+}
+.fixed-width{
+    width: 1200px;
+    margin: auto;
+}
+
+.col-6{
+    width: calc(100% / 12 * 6);  /* 2 */
+}
+.col-5{
+    width: calc(100% / 12 * 5);  
+}
+.col-4{
+    width: calc(100% / 12 * 4);  /* 3 */
+}
+.col-3{
+    width: calc(100% / 12 * 3);  /* 4 */
+}
+.col-2{
+    width: calc(100% / 12 * 2);  
+}
+.col-1{
+    width: calc(100% / 12 * 1);  
+}
+.col-7{
+    width: calc(100% / 12 * 7); 
+}
+.col-8{
+    width: calc(100% / 12 * 8); 
+}
+.col-9{
+    width: calc(100% / 12 * 9); 
+}
+.col-10{
+    width: calc(100% / 12 * 10); 
+}
+.col-11{
+    width: calc(100% / 12 * 11); 
+}
+.col-12{
+    width: calc(100% / 12 * 12);  
+}
+
+[class^="col"] {
+    float: left;
+    padding: 15px;
+    
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear:both;
+    /* 去除浮動 */
+}
+
+.btn1 {
+    display: inline-block;
+    padding: 12px 30px;
+    color: rgb(44, 49, 0);
+    background-color: var(--primaryColor);
+    text-decoration: none;
+}
+
+:root{
+    --primaryColor: #ebc700;
+}
+
+p{
+    color: #444;
+    line-height: 2em;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.nopa{
+    padding:0!important;
+}
+
+
+footer #sns{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #000;
+    background-color:#fff;
+
+}
+
+
+#sns a{
+    color: #000;
+    /* margin-left: 5px; */
+    /* margin-right: 5px; */
+    text-decoration: none;
+    
+}
+
+#sns a:hover{
+    color: rgb(137, 161, 0);
+}

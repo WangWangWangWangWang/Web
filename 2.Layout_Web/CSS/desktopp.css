@@ -1,0 +1,116 @@
+
+    /* .fixed-width{
+        width: 800px;
+        margin: auto;
+    }*/
+    input[type=text]{
+        width: 50%;
+        font-size:14px;
+        padding-bottom: 5px;
+    }
+    textarea.remark{
+        width: 400px;
+        height: 100px;
+        margin: 7.5px 7.5px 0px 7.5px;
+        
+    }
+
+    input[name=total]{
+        border-left: 0px;
+        border-right:0px;
+        border-top: 0px;
+    }
+
+
+    .state{
+        padding-top: 104px; 
+        width: 450px;
+        height: 120px;
+        text-align: right;
+
+    }
+
+    .save{
+        height: 100px;
+        width: 1200px;
+        padding-top: 20px;
+        padding-left: 625px;
+        clear: both;
+    }
+
+    .save button{
+        height: 30px;
+        width: 100px;
+        margin: 10px;
+        float: left;
+    }
+    /**/
+
+header a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header .fixed-width{
+    display: table-cell;
+    vertical-align: middle; 
+}
+
+#bn{
+    width: 800px;
+    height: 120px;
+    text-align: center;
+    margin: auto;
+}
+
+
+.col-2 ul{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.col-2 li{
+    padding-top:5px; 
+}
+
+#productlist{
+    text-align: center;
+
+}
+
+#productlist img{
+    height: 225px;
+    width: 225px;
+}
+
+
+#pimg{
+    height: 400px;
+    width: 400px;
+}
+
+li input[type=text]{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    border: none;
+    display: inline-block;
+    padding: 15px 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(44, 49, 0);
+    background-color: var(--primaryColor);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+

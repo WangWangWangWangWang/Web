@@ -1,0 +1,137 @@
+nav{
+    /* position: fixed ;  讓最上排融合背景*/
+}
+
+nav a{
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav .logo{
+    float: left;
+    margin-right: 50px;
+    font-size: 25px;
+}
+
+nav .menu{
+    float: left;
+}
+
+nav .menu li{
+    float: left;
+}
+
+nav .menu a{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav .login{
+    float: right;
+}
+
+
+
+/* header{
+
+    background-color: beige;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    display: table;
+    background-image: 
+    linear-gradient(to bottom ,rgba(53, 53, 53, 0.5),rgba(53, 53, 53, 0.5)),
+    url("https://images.unsplash.com/photo-1529408686214-b48b8532f72c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2650&h=1440&fit=crop&ixid=eyJhcHBfaWQiOjF9&s=bf38f678707331fad6ab5960235da409");
+    color:rgb(234, 241, 255);
+}
+
+
+
+header a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header .fixed-width{
+    display: table-cell;
+    vertical-align: middle; 
+} */
+
+#banner {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    padding-top: 0;
+}
+
+#banner img {
+    border: 0px;
+    width: 100%;
+    height: 600px;
+}
+#banner_list a {
+    position: absolute;
+    width: 100%;
+}
+
+
+#Featured{
+    text-align: center;
+    text-decoration: none;
+}
+
+#Featured a{
+
+    text-decoration: none;
+}
+
+#signin{ 
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 200px;
+}
+#signin a{ 
+    text-decoration: none;
+    color: #666;
+}
+
+#signin a:hover{ 
+    text-decoration: underline;
+}
+
+#signin .col-6{
+    height: 400px;
+    margin-top: 20px;
+    padding-top: 50px;
+    border-style: solid;
+    border-color: #bbb;
+}
+#signin img{
+    width: 100px;
+    height: 100px;
+}
+
+
+input[type=text],[type=password]{
+    width: 70%;
+    font-size:14px;
+    border-top:0px ;
+    border-left:0px ;
+    border-right:0px ;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+input[type=submit]{
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height:25px;
+    border:2px blue none;
+    background-color:#999;
+}

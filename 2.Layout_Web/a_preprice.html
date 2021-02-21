@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>估價</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/desktopp.css" />
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css"
+    />
+    <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <link
+      rel="stylesheet"
+      href="http://jqueryui.com/resources/demos/style.css"
+    />
+
+    <script>
+      $(function () {
+        $("#datepicker").datepicker();
+      });
+    </script>
+  </head>
+  <body>
+    <nav class="full-width">
+      <div class="fixed-width clearfix">
+        <div class="logo">
+          <a href="a_homepage.html"
+            ><img src="images/LOGONAME-2.png" alt=""
+          /></a>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="a_mlist.html">全部商品</a></li>
+            <li><a href="#">服務介紹</a></li>
+            <li><a href="#">維修/保養</a></li>
+            <li><a href="#">線上客服</a></li>
+            <li><a href="#">會員專區</a></li>
+          </ul>
+        </div>
+        <div class="login">
+          <a href="a_login.html">會員登入 / 註冊</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="full-width">
+      <div class="fixed-width clearfix">
+        <div class="col-4" id="pimg">
+          <img src="images/m1.png" alt="" />
+        </div>
+
+        <div class="col-8">
+          <form>
+            商品名稱:
+            <h2 id="ptitle">冷暖變頻一對一分離式冷氣 RXM36SVLT / FTXM36SVLT</h2>
+            <ul id="pdetail">
+              <li style="color: grey"><b>產品簡介</b></li>
+              <li>舒適氣流強力避免直吹,</li>
+              <li>歐風美學設計</li>
+              <li>智慧定時程式控制</li>
+              <p id="tag">適用: 4~6坪</p>
+              <b><u>預估售價</u></b>
+              <h1 style="color: red">$49990</h1>
+            </ul>
+
+            <br />
+            <h3>預約估價聯絡資料填寫</h3>
+            <li>姓名：<input type="text" name="cname" /></li>
+            <li>連絡電話：<input type="text" name="ctel" /></li>
+            <li>EMAIL：<input type="text" name="cmail" /></li>
+            <li>地址：<input type="text" name="cadress" /></li>
+            <li>室內坪數：<input type="text" name="cplace" /></li>
+            <li>
+              是否為挑高樓層 (3米以上)：<input
+                type="radio"
+                name="c3"
+                value="Y"
+              />是<input type="radio" name="c3" value="N" checked />否
+            </li>
+            <li>
+              是否為頂樓：<input type="radio" name="ctop" value="Y" />是<input
+                type="radio"
+                name="ctop"
+                value="N"
+                checked
+              />否
+            </li>
+            <li>
+              是否為西曬方位：<input
+                type="radio"
+                name="cwest"
+                value="Y"
+              />是<input type="radio" name="cwest" value="N" checked />否
+            </li>
+            <li>其他影響之因素備註：<input type="text" name="cps" /></li>
+            <li>室內室外照片上傳：<input type="button" value="選擇檔案" /></li>
+            <li></li>
+            <!-- 上傳照片後顯示檔案名稱至此 ex:  1.jpg  -->
+            <li>預約看現場日期：<input type="text" id="datepicker" /></li>
+
+            <input type="submit" value="確認預約估價" />
+
+            <h5>注意事項</h5>
+            <h5>註1：預估價格將會視情況更動，請以看完現場後的實際金額為主</h5>
+            <h5>
+              註2：高熱源環境
+              (如人數多或室內陳列因素等)，建議提高冷房額定能力之需求
+            </h5>
+            <h5>
+              註3：營業場所建議由專業人員經現場實際勘測後再推薦您所需之冷房額定能力機種。
+            </h5>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer class="full-width" id="sns">
+      <div class="fixed-width clearfix">
+        <div class="col-7">copyright &copy; 2021</div>
+        <div class="col-5">
+          <a href="#">網站使用條款&nbsp;&nbsp; |&nbsp; &nbsp; </a>
+          <a href="#">隱私權政策&nbsp;&nbsp; |&nbsp; &nbsp; </a>
+          <a href="#">免責聲明&nbsp;&nbsp; |&nbsp; &nbsp; </a>
+          <a href="#">聯絡我們&nbsp;&nbsp; |&nbsp; &nbsp; </a>
+          <a href="#"><i class="fab fa-google-plus-square"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

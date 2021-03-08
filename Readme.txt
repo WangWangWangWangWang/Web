@@ -1,8 +1,8 @@
-±z¦n¡A³o¬O§Úªººô­¶«eºÝ§@«~¶°
-¥H¤U¬°¦U­Ó§@«~ªº¤¶²Ð
+æ‚¨å¥½ï¼Œé€™æ˜¯æˆ‘çš„ç¶²é å‰ç«¯ä½œå“é›†
+ä»¥ä¸‹ç‚ºå„å€‹ä½œå“çš„ä»‹ç´¹
 
-1. WebPage_practice¡G¼ÒÀÀ½u¤Wºô­¶­º­¶ª©«¬¡A¹B¥Îbootstrap»P¦Û¤v½Õ¾ãªºCSS¥h¼ÒÀÀ¸Óª©«¬¡C
+1. WebPage_practiceï¼šæ¨¡æ“¬ç·šä¸Šç¶²é é¦–é ç‰ˆåž‹ï¼Œé‹ç”¨bootstrapèˆ‡è‡ªå·±èª¿æ•´çš„CSSåŽ»æ¨¡æ“¬è©²ç‰ˆåž‹ã€‚
 
-2. Layout_Web¡G¦Û¦æ³]­p¤@­Óºô¯¸«eºÝªìª©¡C«áºÝªº³¡¤À¥¿¦b¾Ç²ß»P¬[ºc¤¤¡C
+2. Layout_Webï¼šè‡ªè¡Œè¨­è¨ˆä¸€å€‹ç¶²ç«™å‰ç«¯åˆç‰ˆã€‚å¾Œç«¯çš„éƒ¨åˆ†æ­£åœ¨å­¸ç¿’èˆ‡æž¶æ§‹ä¸­ã€‚
 
-3. Layout_practice¡G°£¤F¤@¯ë«eºÝ­¶­±¥H¥~¡A¤]¦³°µRWDªº½Õ¾ã
+3. Layout_practice,Island Projectï¼šé™¤äº†ä¸€èˆ¬å‰ç«¯é é¢ä»¥å¤–ï¼Œä¹Ÿæœ‰åšRWDçš„èª¿æ•´
